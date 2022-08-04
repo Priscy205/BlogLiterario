@@ -16,3 +16,17 @@ body
     padding: 0.5em;
     text-align:left;
 }
+
+#container
+{
+    width: 70%;
+    padding: 1cm;
+    text-align:left;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+#container h1
+{
+    font-size: 26px;
+}
