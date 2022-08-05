@@ -1,20 +1,38 @@
 body
 {
+    background: rgb(81, 78, 78);
     color:blueviolet; 
     text-align: center;
     font-family: "Maiandra GD";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-Weight: bold;
 
 }
 
 #cabecera
 {
-    background:grey;
-    box-shadow: 0px 5px 20px 0px rgb(0,0,0,5);
+    background:rgb(68, 137, 97);
+    box-shadow: 0px 2px 20px 0 rgb(0,0,0,5);
     color:white;
     font-Weight: bold;
     margin: 0;
     padding: 0.5em;
     text-align:left;
+    font-size: 30px;
+}
+
+#cabecera #logo
+{
+    width: 85px;
+    vertical-align: middle;
+}
+#cabecera #tagline
+{
+    padding:0 0 0 2em;
+    font-weight: bold;
+    font-size: 23px;
 }
 
 #container
@@ -22,11 +40,17 @@ body
     width: 70%;
     padding: 1cm;
     text-align:left;
-    border: 1px solid;
+    border: 1px solid #add;
     margin: 0 auto;
 }
 
 #container h1
 {
     font-size: 26px;
+}
+
+#post
+{
+    background:white;
+    padding: 1em;
 }
